@@ -1,4 +1,4 @@
-import constructor.Person;
+package generators;
 
 public class PersonTest {
 
