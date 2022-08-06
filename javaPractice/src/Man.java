@@ -5,6 +5,10 @@ public class Man {
     boolean isMarried;
     int children;
 
+    public boolean getIsmarried(){
+        return isMarried;
+    }
+
 
     public static void main(String[] args) {
         Man nameMan = new Man();
@@ -21,7 +25,7 @@ public class Man {
 
         System.out.println(nameMan.name);
         System.out.println(ageMan.age);
-        System.out.println(isMarriedMan.isMarried);
+        System.out.println(isMarriedMan.getIsmarried());
         System.out.println(childrenMan.children);
     }
 }
