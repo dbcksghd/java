@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7af1cabd-9482-47c0-9435-2e9c6165813c" name="Changes" comment="" />
+    <list default="true" id="8d34f838-10fd-444f-95c7-76c1c63266a8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2CyCIDV6Tk01QEU5oWAlR0fdw3y" />
+  <component name="ProjectId" id="2D3Vadrc1KD2CQU6FADtjOlsVY8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/user/Desktop/github/java/javaPractice",
+    "last_opened_file_path": "C:/Users/user/Desktop/github/java/thisEx",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,12 +44,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7af1cabd-9482-47c0-9435-2e9c6165813c" name="Changes" comment="" />
-      <created>1659765356488</created>
+      <changelist id="8d34f838-10fd-444f-95c7-76c1c63266a8" name="Changes" comment="" />
+      <created>1659927821469</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659765356488</updated>
-      <workItem from="1659951876617" duration="969000" />
+      <updated>1659927821469</updated>
+      <workItem from="1659927822663" duration="3301000" />
+      <workItem from="1659953909138" duration="2041000" />
     </task>
     <servers />
   </component>
