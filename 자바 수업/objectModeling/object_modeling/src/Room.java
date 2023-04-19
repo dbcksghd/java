@@ -4,8 +4,8 @@ public class Room {
     final public ArrayList<Student> students = new ArrayList<>();
     final public String roomName;
 
-    Room(String roomName, ArrayList<Student> personList) {
-        students.addAll(personList);
+    Room(String roomName, ArrayList<Student> studentsList) {
+        students.addAll(studentsList);
         this.roomName = roomName;
     }
 
