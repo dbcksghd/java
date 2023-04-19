@@ -13,7 +13,7 @@ public class SpecialStudyRoom extends Studyroom {
             System.out.print(student.getName() + " ");
         }
         System.out.print("님 들이 ");
-        television.turnOnTV();
+        television.watchingTV();
     }
 
     public void study(){

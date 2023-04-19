@@ -1,6 +1,10 @@
 public class Television {
 
-    public void turnOnTV(){
-        System.out.println("TV를 켭니다.");
+    public void watchingTV(){
+        System.out.println("TV를 봅니다.");
+    }
+
+    public String turnOnTV(){
+        return "님이 TV를 켰습니다.";
     }
 }
