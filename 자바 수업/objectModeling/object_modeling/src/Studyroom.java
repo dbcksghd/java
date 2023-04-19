@@ -1,26 +1,21 @@
 import java.util.ArrayList;
 
-public class Studyroom {
-    final private String studyRoomName;
-
-    final private ArrayList<String> persons = new ArrayList<>();
-
-    Studyroom(String studyRoomName, ArrayList<String> personNameList) {
-        this.studyRoomName = studyRoomName;
-        this.persons.addAll(personNameList);
+public class Studyroom extends Room {
+    public ArrayList<Student> students = new ArrayList<>();
+    Studyroom(String studyRoomName, ArrayList<Student> studentList) {
+        super(studyRoomName, studentList);
+        this.students.addAll(studentList);
     }
 
     public void study() {
-        System.out.println(studyRoomName + "에서 공부하는 중입니다.");
+        System.out.println(roomName + "에서 공부하는 중입니다.");
     }
 
-    public void getStudingPeopleName() {
-        for (String person : persons) {
-            System.out.print(person);
-            if (persons.indexOf(person) == 0) {
-                System.out.print(", ");
-            }
+    @Override
+    public void getRoomUsePersonList() {
+        for (Student student: students) {
+            System.out.print(student.getName() + " ");
         }
-        System.out.println(" 님들이 공부중입니다.");
+        System.out.println("님 들이 공부중입니다.");
     }
 }
