@@ -15,4 +15,8 @@ public class SpecialStudyRoom extends Studyroom {
         System.out.print("님 들이 ");
         television.turnOnTV();
     }
+
+    public void study(){
+        super.study();
+    }
 }
