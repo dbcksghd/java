@@ -16,9 +16,12 @@ public class Main {
 
         SpecialStudyRoom specialStudyRoom = new SpecialStudyRoom("가온실", studentList);
         specialStudyRoom.turnOnTVByStudent();
+        specialStudyRoom.study();
+
         Student student2 = new Student("박준하", 8);
         Student student3 = new Student("이재동", 15);
         ArrayList<Student> roomLiveList = new ArrayList<>(List.of(student, student2, student3));
+
         Room room = new Room("408호", roomLiveList);
         room.getRoomName();
         room.getRoomUsePersonList();
