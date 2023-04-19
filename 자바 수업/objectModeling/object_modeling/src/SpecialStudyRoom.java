@@ -1,12 +1,18 @@
 import java.util.ArrayList;
 
 public class SpecialStudyRoom extends Studyroom {
-
-    SpecialStudyRoom(String studyRoomName, ArrayList<String> persons) {
-        super(studyRoomName, persons);
+    public ArrayList<Student> students = new ArrayList<>();
+    Television television = new Television();
+    SpecialStudyRoom(String studyRoomName, ArrayList<Student> studentList) {
+        super(studyRoomName, studentList);
+        this.students.addAll(studentList);
     }
 
-    public void turnOnTVByPerson(String person) {
-        System.out.println(person + " 이/가 TV를 켰다.");
+    public void turnOnTVByStudent(){
+        for (Student student: students) {
+            System.out.print(student.getName() + " ");
+        }
+        System.out.print("님 들이 ");
+        television.turnOnTV();
     }
 }
