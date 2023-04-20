@@ -9,7 +9,7 @@ public class Room {
         this.roomName = roomName;
     }
 
-    public void getRoomUsePersonList() {
+    public void getUsingRoomStudentList() {
         for (Student student: students) {
             System.out.print(student.getName() + " ");
         }

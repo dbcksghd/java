@@ -1,10 +1,8 @@
 import java.util.ArrayList;
 
 public class Studyroom extends Room {
-    public ArrayList<Student> students = new ArrayList<>();
     Studyroom(String studyRoomName, ArrayList<Student> studentList) {
         super(studyRoomName, studentList);
-        this.students.addAll(studentList);
     }
 
     public void study() {
@@ -12,7 +10,7 @@ public class Studyroom extends Room {
     }
 
     @Override
-    public void getRoomUsePersonList() {
+    public void getUsingRoomStudentList() {
         for (Student student: students) {
             System.out.print(student.getName() + " ");
         }

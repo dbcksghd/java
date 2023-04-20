@@ -12,10 +12,10 @@ public class Main {
 
         Studyroom studyroom = new Studyroom("4층 자습실", studentList);
         studyroom.study();
-        studyroom.getRoomUsePersonList();
+        studyroom.getUsingRoomStudentList();
 
         SpecialStudyRoom specialStudyRoom = new SpecialStudyRoom("가온실", studentList);
-        specialStudyRoom.turnOnTVByStudent();
+        specialStudyRoom.getWatchingTVStudentList();
         specialStudyRoom.study();
         Television television = new Television();
         student.turnOnTV(television);
@@ -26,7 +26,7 @@ public class Main {
 
         Room room = new Room("408호", roomLiveList);
         room.getRoomName();
-        room.getRoomUsePersonList();
+        room.getUsingRoomStudentList();
         room.sleep();
         room.sleep(12, 10);
     }
